@@ -291,7 +291,7 @@ aside a {
     display: flex;
 }
 
-#rect1 {
+/* #rect1 {
     height: calc(100% - 100px);
     width: 410px;
     background: url('./assets/pp.jpg');
@@ -304,6 +304,16 @@ aside a {
 #page2-right:hover #rect1 {
     filter: grayscale(0);
     transition: all ease 0.4s;
+} */
+
+#rect1 {
+    height: calc(100% - 100px);
+    width: 410px;
+}
+
+#rect1 iframe{
+    height: 100%;
+    width: 100%;
 }
 
 #page3 {
@@ -426,7 +436,7 @@ aside a {
     width: 40%;
     display: flex;
 }
-
+/* 
 #rect3 {
     height: calc(100% - 100px);
     width: 410px;
@@ -435,11 +445,21 @@ aside a {
     background-position: center;
     filter: grayscale(70%);
     transition: all ease 0.4s;
-}
+} */
 
-#page4-right:hover #rect3 {
+/* #page4-right:hover #rect3 {
     filter: grayscale(0);
     transition: all ease 0.4s;
+} */
+
+#rect3 {
+    height: calc(100% - 100px);
+    width: 410px;
+}
+
+#rect3 iframe{
+    height: 100%;
+    width: 100%;
 }
 
 
