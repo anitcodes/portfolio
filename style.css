@@ -84,6 +84,63 @@ aside a {
     font-weight: 800;
 }
 
+
+/* for sidebar  */
+#sidebar{
+    position: fixed;
+    top:25%;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 999;
+    transform: translateX(-150%);
+    transition: all ease 0.4s;
+}
+
+#sidebar a{
+    text-decoration: none;
+}
+
+#sidebar i{
+    padding: 15px 15px;
+    border: 2px solid #374151;
+    border-radius: 50%;
+    background: #374151;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+#sidebar i:hover{
+    background: #fff;
+    color: #374151;
+    transition: all ease 0.4s;
+}
+
+#sidebar-opn{
+    position: fixed;
+    top: 75%;
+    left: 1.7%;
+    display: flex;
+    padding:10px 10px;
+    border-radius: 50%;
+    border: 2px solid #374151;  
+    background: rgba(163, 163, 163, 0.164);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    z-index: 999;
+}
+
+#sidebar-opn i{
+    color: green;
+    font-size: 20px;
+    transition: all ease 0.4s;
+}
+
+/* sidebar ends */
+
 #page1 {
     height: 100vh;
     width: 100%;
@@ -98,7 +155,7 @@ aside a {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 #page1-left h2 {
@@ -186,6 +243,7 @@ aside a {
 #page2 {
     height: 100vh;
     width: 100%;
+    background: white;
     display: flex;
 }
 
@@ -194,6 +252,7 @@ aside a {
     width: 60%;
     align-content: center;
     padding: 0 100px;
+    padding-left: 150px;
 }
 
 #page2-left h1 {
@@ -258,6 +317,7 @@ aside a {
     width: 60%;
     align-content: center;
     padding: 0 100px;
+    padding-left: 150px;
 }
 
 #page3-left h1 {
@@ -322,6 +382,7 @@ aside a {
     width: 60%;
     align-content: center;
     padding: 0 100px;
+    padding-left: 150px;
     transition: all ease 0.4s;
 }
 

@@ -23,3 +23,22 @@ function navbar() {
 navbar()
 
 
+function sidebar() {
+    var sidebar = document.querySelector("#sidebar");
+    var open = document.querySelector("#sidebar-opn");
+    var icon = document.querySelector("#arrow");
+    var check = true;
+
+    open.addEventListener("click", function () {
+        if (check) {
+            sidebar.style.transform = "translateX(0%)";
+            icon.style.transform = "rotate(180deg)";
+            check = false;
+        } else {
+            sidebar.style.transform = "translateX(-150%)";
+            icon.style.transform = "rotate(0deg)";
+            check = true;
+        }
+    })
+}
+sidebar();
