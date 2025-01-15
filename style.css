@@ -19,7 +19,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background: #E6E6E6;
+
 }
 
 nav {
@@ -126,7 +126,7 @@ aside a {
     display: flex;
     padding:10px 10px;
     border-radius: 50%;
-    border: 2px solid #374151;  
+    border: 1px solid #fff;  
     background: rgba(163, 163, 163, 0.164);
     backdrop-filter: blur(5px);
     cursor: pointer;
@@ -134,7 +134,7 @@ aside a {
 }
 
 #sidebar-opn i{
-    color: green;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     transition: all ease 0.4s;
 }
@@ -145,6 +145,7 @@ aside a {
     height: 100vh;
     width: 100%;
     display: flex;
+    background: #E6E6E6;
 }
 
 #page1-left {
@@ -238,35 +239,6 @@ aside a {
 #profile:hover {
     filter: grayscale(0);
     transition: all ease 0.4s;
-}
-
-.custom-shape-divider-bottom-1736941292 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1736941292 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 81px;
-}
-
-.custom-shape-divider-bottom-1736941292 .shape-fill {
-    fill: #FFFFFF;
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1736941292 svg {
-        width: calc(100% + 1.3px);
-        height: 47px;
-    }
 }
 
 #page2 {
@@ -498,7 +470,7 @@ aside a {
     #page1-left {
         width: 100%;
         height: 100%;
-        padding: 5px 30px;
+        padding: 15px 30px;
     }
 
     #page1-right {
@@ -507,7 +479,6 @@ aside a {
 
     #btn {
         display: flex;
-        margin-bottom: 20px;
     }
 
     #btn button {
