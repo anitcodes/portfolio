@@ -507,6 +507,7 @@ aside a {
 
     #btn {
         display: flex;
+        margin-bottom: 20px;
     }
 
     #btn button {
